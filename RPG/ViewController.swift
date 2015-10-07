@@ -10,6 +10,31 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var textLabel: UILabel!
+    
+    @IBOutlet weak var player1Hp: UILabel!
+    
+    @IBOutlet weak var player2Hp: UILabel!
+    
+    @IBOutlet weak var player1AttackButton: UIButton!
+    
+    @IBOutlet weak var player2AttackButton: UIButton!
+    
+    @IBOutlet weak var player2Character: UIImageView!
+    
+    @IBOutlet weak var loot: UIButton!
+    
+    
+    @IBAction func player1Attack(sender: UIButton) {
+        
+    }
+    
+    @IBAction func player2Attack(sender: UIButton) {
+        
+    }
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.

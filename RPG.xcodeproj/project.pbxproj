@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F84A1691BC5CBD300023B78 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F84A1681BC5CBD300023B78 /* Character.swift */; settings = {ASSET_TAGS = (); }; };
 		8FA6BC9A1BC5BBEF0075CA3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA6BC991BC5BBEF0075CA3E /* AppDelegate.swift */; };
 		8FA6BC9C1BC5BBEF0075CA3E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA6BC9B1BC5BBEF0075CA3E /* ViewController.swift */; };
 		8FA6BC9F1BC5BBEF0075CA3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FA6BC9D1BC5BBEF0075CA3E /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8F84A1681BC5CBD300023B78 /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
 		8FA6BC961BC5BBEF0075CA3E /* RPG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RPG.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FA6BC991BC5BBEF0075CA3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8FA6BC9B1BC5BBEF0075CA3E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			children = (
 				8FA6BC991BC5BBEF0075CA3E /* AppDelegate.swift */,
 				8FA6BC9B1BC5BBEF0075CA3E /* ViewController.swift */,
+				8F84A1681BC5CBD300023B78 /* Character.swift */,
 				8FA6BC9D1BC5BBEF0075CA3E /* Main.storyboard */,
 				8FA6BCA01BC5BBEF0075CA3E /* Assets.xcassets */,
 				8FA6BCA21BC5BBEF0075CA3E /* LaunchScreen.storyboard */,
@@ -135,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8FA6BC9C1BC5BBEF0075CA3E /* ViewController.swift in Sources */,
+				8F84A1691BC5CBD300023B78 /* Character.swift in Sources */,
 				8FA6BC9A1BC5BBEF0075CA3E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -252,6 +256,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = swiftgraydesign.RPG;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -263,6 +268,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = swiftgraydesign.RPG;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -285,6 +291,7 @@
 				8FA6BCAA1BC5BBEF0075CA3E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
