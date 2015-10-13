@@ -35,7 +35,7 @@ class Character {
         
     }
     
-    init(startingHp: Int, _hp: Int, attackPwr: Int) {
+    init(startingHp: Int, attackPwr: Int) {
     self._hp = startingHp
     self._attackPwr = attackPwr
         

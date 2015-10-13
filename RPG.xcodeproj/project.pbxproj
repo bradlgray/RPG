@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F09942E1BCC59B00075AC88 /* Monster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F09942D1BCC59B00075AC88 /* Monster.swift */; settings = {ASSET_TAGS = (); }; };
+		8F0994301BCC5AB80075AC88 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F09942F1BCC5AB80075AC88 /* Player.swift */; settings = {ASSET_TAGS = (); }; };
+		8F0994321BCC66930075AC88 /* Balrog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0994311BCC66930075AC88 /* Balrog.swift */; settings = {ASSET_TAGS = (); }; };
+		8F0994341BCC6AE10075AC88 /* Sauron.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0994331BCC6AE10075AC88 /* Sauron.swift */; settings = {ASSET_TAGS = (); }; };
 		8F84A1691BC5CBD300023B78 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F84A1681BC5CBD300023B78 /* Character.swift */; settings = {ASSET_TAGS = (); }; };
 		8FA6BC9A1BC5BBEF0075CA3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA6BC991BC5BBEF0075CA3E /* AppDelegate.swift */; };
 		8FA6BC9C1BC5BBEF0075CA3E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA6BC9B1BC5BBEF0075CA3E /* ViewController.swift */; };
@@ -16,6 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8F09942D1BCC59B00075AC88 /* Monster.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Monster.swift; sourceTree = "<group>"; };
+		8F09942F1BCC5AB80075AC88 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		8F0994311BCC66930075AC88 /* Balrog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Balrog.swift; sourceTree = "<group>"; };
+		8F0994331BCC6AE10075AC88 /* Sauron.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sauron.swift; sourceTree = "<group>"; };
 		8F84A1681BC5CBD300023B78 /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
 		8FA6BC961BC5BBEF0075CA3E /* RPG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RPG.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FA6BC991BC5BBEF0075CA3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +67,10 @@
 				8FA6BC991BC5BBEF0075CA3E /* AppDelegate.swift */,
 				8FA6BC9B1BC5BBEF0075CA3E /* ViewController.swift */,
 				8F84A1681BC5CBD300023B78 /* Character.swift */,
+				8F09942F1BCC5AB80075AC88 /* Player.swift */,
+				8F09942D1BCC59B00075AC88 /* Monster.swift */,
+				8F0994311BCC66930075AC88 /* Balrog.swift */,
+				8F0994331BCC6AE10075AC88 /* Sauron.swift */,
 				8FA6BC9D1BC5BBEF0075CA3E /* Main.storyboard */,
 				8FA6BCA01BC5BBEF0075CA3E /* Assets.xcassets */,
 				8FA6BCA21BC5BBEF0075CA3E /* LaunchScreen.storyboard */,
@@ -137,8 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F09942E1BCC59B00075AC88 /* Monster.swift in Sources */,
 				8FA6BC9C1BC5BBEF0075CA3E /* ViewController.swift in Sources */,
+				8F0994321BCC66930075AC88 /* Balrog.swift in Sources */,
+				8F0994341BCC6AE10075AC88 /* Sauron.swift in Sources */,
 				8F84A1691BC5CBD300023B78 /* Character.swift in Sources */,
+				8F0994301BCC5AB80075AC88 /* Player.swift in Sources */,
 				8FA6BC9A1BC5BBEF0075CA3E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
